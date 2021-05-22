@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+
+body {
+  font-family: "Pattaya", sans-serif;
+  margin: 0px;
+}
+
+:root {
+  --primary-color: #F87171;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+  font-size: large;
+}
+
+#txt-area {
+  padding: 1rem;
+  margin-top: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::placeholder {
+  font-family: "Pattaya", sans-serif;
+  font-size: large;
+}
+
+.btn-translate {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+  padding: 2rem;
+  border-style: none;
+  font-family: "Pattaya", sans-serif;
+  font-size: larger;
+}
+
+.trans-msg {
+  text-align: center;
+  font-size: larger;
+}
+
+.output-box {
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  padding: 3rem;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
